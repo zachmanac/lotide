@@ -34,7 +34,7 @@ const flatten = function(array) {
     for (let j = 0; j < element.length; j++) {
       newArray.push(element[j]);
     }
-  } 
+  }
   return newArray;
 };
 
