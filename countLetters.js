@@ -12,7 +12,7 @@ const countLetters = function(string) {
   let count = {};
 
   for (let character of string) {
-    if(character === " ") {
+    if (character === " ") {
       continue;
     }
     if (count[character]) {
