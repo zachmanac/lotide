@@ -33,7 +33,7 @@ const assertArraysEqual = function(array1, array2) {
   return console.log(`✅ Assertion Passed, ${JSON.stringify(array1)} equals ${JSON.stringify(array2)}`);
 };
 
-const results1 = map(words, word => word);
+const results1 = map(words, word => word[0]);
 console.log(results1);
 
-assertArraysEqual(words, results1);
+assertArraysEqual(results1, ["g","c","t","m","t"]);
